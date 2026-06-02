@@ -1,5 +1,7 @@
 MemSim — Simulador de Gerência de Memória Virtual
+
 Disciplina: Sistemas Operacionais
+
 Professor: Filipo Mór
 ---------------------------------------------------
 Grupo 15: LRU vs. LFU (3 frames)
