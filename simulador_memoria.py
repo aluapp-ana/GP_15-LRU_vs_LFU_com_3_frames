@@ -13,6 +13,13 @@ class Frame:
         self.pagina_alocada = None  # Armazena o número da página ou None se estiver vazio
         # Dica para os alunos: vocês podem adicionar atributos aqui para ajudar no algoritmo (ex: timestamp, contador)
 
+        # atributos LRU
+        # to do 
+
+        # atributos para LFU
+        # contador: total de acessos à página desde que foi carregada nesse frame
+        # quanto menor, menos frequentemente foi usada e vira candidata a remoção
+        self.contador = 0
 
 class TabelaPaginas:
     def __init__(self, num_frames):
