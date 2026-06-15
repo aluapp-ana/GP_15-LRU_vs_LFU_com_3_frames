@@ -15,7 +15,7 @@ Escreva no terminal:
 - Exemplo:
     - python simulador_memoria.py entrada.txt LRU
 
-Estatisticas finais alcançadas:
+Estatísticas finais alcançadas:
 
 - LRU
     - Total de Acessos: 12
