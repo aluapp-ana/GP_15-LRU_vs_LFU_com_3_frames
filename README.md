@@ -9,7 +9,7 @@ Descrição:
 Simulador de paginação em memória virtual que implementa dois algoritmos de substituição de páginas: LRU (Least Recently Used) e LFU (Least Frequently Used). A cada acesso, o programa exibe o estado completo dos frames físicos e ao final apresenta as estatísticas consolidadas.
 
 Como executar:
-Ao rodar o arquivo simulador_memoria.py, escreva no terminal: 
+Escreva no terminal: 
         python simulador_memoria.py <arquivo_entrada> <algoritmo>
 
     - Exemplo: python simulador_memoria.py entrada.txt LRU
