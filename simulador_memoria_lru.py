@@ -15,11 +15,12 @@ class Frame:
 
 
 class TabelaPaginas:
-    def __init__(self, num_frames):
-        self.frames = [Frame(i) for i in range(num_frames)]
-        self.total_page_faults = 0
-        self.total_acessos = 0
-        self.tempo = 0  
+    #start
+    
+    
+    
+    
+    #end
 
     def acessar_pagina(self, numero_pagina):
         self.total_acessos += 1
