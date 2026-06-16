@@ -21,19 +21,18 @@ O arquivo de entrada tem o número de frames na primeira linha, seguido da sequ�
 
 ## Resultados (entrada.txt, 3 frames)
 
-LRU
+- LRU
+    - Total de Acessos: 12
+    - Total de Page Faults: 9
+    - Taxa de Page Faults: 75.00%
+    - Mapa final: [F0]: 0, [F1]: 3, [F2]: 2
 
-Total de Acessos: 12
-Total de Page Faults: 9
-Taxa de Page Faults: 75.00%
-Mapa final: [F0]: 0, [F1]: 3, [F2]: 2
 
-LFU
-
-Total de Acessos: 12
-Total de Page Faults: 8
-Taxa de Page Faults: 66.67%
-Mapa final: [F0]: 3, [F1]: 0, [F2]: 2
+- LFU
+    - Total de Acessos: 12
+    - Total de Page Faults: 8
+    - Taxa de Page Faults: 66.67%
+    - Mapa final: [F0]: 3, [F1]: 0, [F2]: 2
 
 O LFU teve desempenho ligeiramente melhor nessa sequência, economizando 1 page fault em relação ao LRU. Isso acontece porque o LFU protege páginas que já foram carregadas múltiplas vezes — quanto mais vezes uma página gerou page fault, maior sua "prioridade" de permanência na memória. Em sequências onde as mesmas páginas precisam ser recarregadas repetidamente, isso evita substituições desnecessárias.
 
