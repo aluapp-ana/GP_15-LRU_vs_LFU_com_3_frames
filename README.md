@@ -21,8 +21,11 @@ Estatísticas finais alcançadas:
     - Total de Acessos: 12
     - Total de Page Faults: 9
     - Taxa de Page Faults: 75.00%
+    - Mapa final: [F0]: 0, [F1]: 3, [F2]: 2
+
 
 - LFU
     - Total de Acessos: 12
     - Total de Page Faults: 8
     - Taxa de Page Faults: 66.67%
+    - Mapa final: [F0]: 3, [F1]: 0, [F2]: 2
